@@ -3,6 +3,7 @@
 int main() {
     int a;
     int b;
+    scanf("%d", &a, &b)
     int sum = a+b;
     printf("%d", sum);
     return 0;
