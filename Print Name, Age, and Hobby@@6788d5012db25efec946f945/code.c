@@ -3,8 +3,10 @@
 int main() {
     char name[100];
     int age;
-    char Hobby;
-    scanf("")
-    printf("%s", welcome());
+    char hobby[100];
+    scanf("%s %d %s", &name, &age, &hobby);
+    printf("Name: %s\n", name);
+    printf("Age: %d\n", age);
+    printf("Hobbe: %s\n", hobby)
     return 0;
 }
