@@ -5,7 +5,6 @@ void main() {
     int a, b, c;
 
     // Prompting user for input
-    printf("Enter three sides of the triangle: ");
     scanf("%d %d %d", &a, &b, &c);
 
     // Check if the sum of any two sides is greater than the third
