@@ -9,7 +9,8 @@ int main() {
         printf("%d\n", num1);
     else if (num2>num3 && num2>num3)
         printf("%d\n", num2);
-    else
+    else {
         printf("&d\n", num3);
+    }
     return 0;
 }
