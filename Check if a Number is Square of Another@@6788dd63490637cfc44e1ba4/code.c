@@ -8,7 +8,7 @@ int main() {
         printf("Yes\n");
     }
     else {
-        printf("No\n")
+        printf("No\n");
     }
     return 0;
 }
