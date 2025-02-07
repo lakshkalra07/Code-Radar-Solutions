@@ -17,7 +17,7 @@ int main() {
         printf("Divisible by 5\n");
     }
     else {
-        printf("Bot Divisible\n");
+        printf("Not Divisible\n");
     }
 return 0;
 }
