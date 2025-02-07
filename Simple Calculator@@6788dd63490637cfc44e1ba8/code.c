@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    int num1, num2;
+    int num1;
+    int num2;
     char operator;
     scanf("%d %d", &num1, &num2);
     scanf(" %c", &operator);
@@ -16,10 +17,10 @@ int main() {
         if (num2 != 0) {
             printf("%d\n", num1 / num2);
         } else {
-            printf("Error: Division by zero.\n");
+            printf("error\n");
         }
     } else {
-        printf("Error: Invalid operator.\n");
+        printf("error\n");
     }
 
     return 0;
