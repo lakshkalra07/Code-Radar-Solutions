@@ -24,5 +24,8 @@ int main() {
     else if (day==7){
         printf("Sunday\n");
     }
+    else{
+        printf("Invalid\n")
+    }
     return 0;
 }
