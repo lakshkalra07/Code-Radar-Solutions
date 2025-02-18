@@ -5,17 +5,17 @@ int main() {
     scanf("%d", &num);
 
     if (num <= 1) {
-        printf("%Not Prime\n");
+        printf("Not Prime\n");
     } else {
         while (i < num) {
             if (num % i == 0) {
-                printf("%Not Prime\n");
+                printf("Not Prime\n");
                 break;
             }
             i++;
         }
         if (i == num) {
-            printf("%Prime\n");
+            printf("Prime\n");
         }
     }
 
