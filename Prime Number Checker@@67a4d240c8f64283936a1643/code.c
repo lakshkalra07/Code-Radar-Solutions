@@ -1,7 +1,7 @@
 int isPrime(int num) {
-    if (num <= 1) return 0; // Numbers less than 2 are not prime
+    if (num <= 1) return 0;
     for (int i = 2; i * i <= num; i++) {
-        if (num % i == 0) return 0; // If divisible, it's not prime
+        if (num % i == 0) return 0;
     }
-    return 1; // Otherwise, it's prime
+    return 1;
 }
