@@ -9,7 +9,6 @@ void printNumbers(int n) {
 
 int main() {
     int n;
-    printf("Enter a number: ");
     scanf("%d", &n); // Take input for N
     printNumbers(n); // Function call to print numbers from 1 to N
     return 0;
