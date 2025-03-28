@@ -6,7 +6,7 @@ int main() {
     
     for (int i = N; i >= 1; i--) {
         for (int j = i; j >= 1; j--) {
-            printf("%d", j);  // Removed extra space after number
+            printf("%d ", j);
         }
         printf("\n");
     }
