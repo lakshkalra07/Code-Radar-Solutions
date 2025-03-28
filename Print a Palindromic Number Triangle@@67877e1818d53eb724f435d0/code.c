@@ -1,4 +1,4 @@
-#Include <stdio.h>
+#include <stdio.h>
 int main(){
     for(int i=1;i<=n;i++){
         for(int j=1;j<=n-i;j++){
@@ -8,7 +8,7 @@ int main(){
             printf("%d",k);
         }
         for(int q=i-1;q>=1;q--){
-            printf("%d",q)
+            printf("%d",q);
         }
         printf("\n");
     }
