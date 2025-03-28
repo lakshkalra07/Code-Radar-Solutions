@@ -1,23 +1,22 @@
 #include <stdio.h>
 
-void printPalindromicNumberTriangle(int n) {
+void printPalindromeTriangle(int n) {
     for (int i = 1; i <= n; i++) {
-        // Print the increasing sequence
+        // Print increasing numbers
         for (int j = 1; j <= i; j++) {
             printf("%d", j);
         }
-        // Print the decreasing sequence
+        // Print decreasing numbers
         for (int j = i - 1; j >= 1; j--) {
             printf("%d", j);
         }
-        // Move to the next line
         printf("\n");
     }
 }
 
 int main() {
-    int rows;
-    scanf("%d", &rows);
-    printPalindromicNumberTriangle(rows);
+    int n;
+    scanf("%d", &n);
+    printPalindromeTriangle(n);
     return 0;
 }
