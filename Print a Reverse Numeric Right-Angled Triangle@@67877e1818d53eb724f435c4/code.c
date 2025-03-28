@@ -5,11 +5,12 @@ int main() {
     scanf("%d", &N);
     
     for (int i = N; i >= 1; i--) {
-        for (int j = i; j >= 1; j--) {
-            printf("%d ", j);
+        for (int j = 1; j <= i; j++) {
+            printf("%d ", j);  // Print numbers in ascending order
         }
         printf("\n");
     }
     
     return 0;
 }
+
