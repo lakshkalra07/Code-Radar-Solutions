@@ -8,7 +8,7 @@ void printPalindromeTriangle(int n) {
         }
         // Print decreasing numbers
         for (int j = i - 1; j >= 1; j--) {
-            printf(" %d", j);
+            printf("%d", j);
         }
         // Print newline at the end of each row
         printf(" \n");
