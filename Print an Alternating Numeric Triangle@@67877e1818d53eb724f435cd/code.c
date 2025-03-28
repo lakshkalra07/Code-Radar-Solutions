@@ -13,7 +13,6 @@ void printAlternatingNumericTriangle(int n) {
 
 int main() {
     int rows;
-    printf("Enter the number of rows: ");
     scanf("%d", &rows);
     printAlternatingNumericTriangle(rows);
     return 0;
