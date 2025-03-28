@@ -1,24 +1,16 @@
-#include <stdio.h>
-
-void printPalindromeTriangle(int n) {
-    for (int i = 1; i <= n; i++) {
-        // Print increasing numbers
-        for (int j = 1; j <= i; j++) {
-            printf("%d", j);
+#Include <stdio.h>
+int main(){
+    for(int i=1;i<=n;i++){
+        for(int j=1;j<=n-i;j++){
+            printf(" ");
         }
-        // Print decreasing numbers
-        for (int j = i - 1; j >= 1; j--) {
-            printf("%d", j);
+        for(int k=1;k<=i;k++){
+            printf("%d",k);
         }
-        // Print newline at the end of each row
+        for(int q=i-1;q>=1;q--){
+            printf("%d",q)
+        }
         printf("\n");
     }
-}
-
-int main() {
-    int n;
-    scanf("%d", &n);
-    printPalindromeTriangle(n);
     return 0;
 }
-
