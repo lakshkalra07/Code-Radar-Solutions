@@ -10,6 +10,7 @@ void printPalindromeTriangle(int n) {
         for (int j = i - 1; j >= 1; j--) {
             printf("%d", j);
         }
+        // Print newline at the end of each row
         printf("\n");
     }
 }
@@ -20,3 +21,4 @@ int main() {
     printPalindromeTriangle(n);
     return 0;
 }
+
