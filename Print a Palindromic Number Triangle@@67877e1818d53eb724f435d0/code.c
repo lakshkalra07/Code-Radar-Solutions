@@ -11,7 +11,7 @@ void printPalindromeTriangle(int n) {
             printf("%d", j);
         }
         // Print newline at the end of each row
-        printf("\n");
+        printf(" \n");
     }
 }
 
